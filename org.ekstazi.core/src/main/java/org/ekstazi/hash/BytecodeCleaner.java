@@ -21,6 +21,7 @@ import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Arrays;
 
 import org.ekstazi.asm.AnnotationVisitor;
 import org.ekstazi.asm.ClassReader;
@@ -687,7 +688,10 @@ public final class BytecodeCleaner {
             return bytes;
         }
 
-        return baos.toByteArray();
+        byte[] array = baos.toByteArray();
+        // sort the array so that the "sort methods" will not affect it
+        Arrays.sort(array);
+        return array;
     }
 
     public static void main(String... args) throws IOException {

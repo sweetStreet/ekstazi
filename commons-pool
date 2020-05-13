@@ -1,0 +1,141 @@
+{
+    "7d033060b08cedc9b54bdc1f8951a872870cdadb": {"src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java": "MultiMethods"},
+    "a50599921f4349bcdad35f2c642f1d148d099448": {"src/main/java/org/apache/commons/pool2/impl/SoftReferenceObjectPool.java": "Other"},
+    "a5f74a49364f99a7799109c69b72573e71c77aad": {},
+    "c5328f9ab2ec04af98aa3eac9a7bb5c35f75da87": {
+        "src/test/java/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.java": "Other",
+        "src/test/java/org/apache/commons/pool2/impl/TestGenericObjectPool.java": "Other",
+        "src/main/java/org/apache/commons/pool2/PooledObject.java": "Other"
+    },
+    "6eb494c5f000138d37f2f1a0ab931327c14b83b6": {"src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java": "MultiMethods"},
+    "c9e5253a77853ffef79157612db490537827cf5e": {"src/main/java/org/apache/commons/pool2/KeyedObjectPool.java": "Other"},
+    "1dd4b1ad9e1d82ad52ee29483c167847fe78cf96": {},
+    "8c8c9013d1ee63641a3b6f4902801b155465497b": {"src/test/java/org/apache/commons/pool2/impl/TestAbandonedObjectPool.java": "MultiMethods"},
+    "0cdff0ade7e6a6ae2a48356e55d7549353535043": {
+        "src/test/java/org/apache/commons/pool2/impl/TestGenericObjectPool.java": "Class",
+        "src/main/java/org/apache/commons/pool2/impl/GenericObjectPool.java": "MultiMethods"
+    },
+    "b6775ade9fe7862c7ed8852e1c146cd2d4d01ceb": {
+        "src/test/java/org/apache/commons/pool2/MethodCall.java": "Other",
+        "src/test/java/org/apache/commons/pool2/TestPoolUtils.java": "Other"
+    },
+    "41c4df1384c53b4b80b2a01fb15dd5685d59b37b": {},
+    "8b0bbdf6165ef980132ece6a48d40a573a83282e": {
+        "src/main/java/org/apache/commons/pool2/BaseObjectPool.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/SoftReferenceObjectPool.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/DefaultEvictionPolicy.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/InterruptibleReentrantLock.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/EvictionConfig.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/GenericObjectPool.java": "Other",
+        "src/main/java/org/apache/commons/pool2/PooledObject.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/LinkedBlockingDeque.java": "Other",
+        "src/main/java/org/apache/commons/pool2/BaseKeyedPooledObjectFactory.java": "Other"
+    },
+    "134c01bca4293425c101136935c2da9e6cfc7542": {},
+    "cb38a1b69384a3811d50d9eb0145683227fe8d51": {"src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java": "MultiMethods"},
+    "f244436752a3f57af1e7dd4de391d7aef449ffe5": {},
+    "796e32d53cc0d870ba0db3a7faf4c5b24ff76f3f": {},
+    "9ccaf6c6f357fdf965fb83387b2e1241cb6070db": {},
+    "f4455dcb8afaf9ae7054589110f1082a7a8a282c": {},
+    "2d2049233940b10c7dd35df70a353d383f601053": {
+        "src/test/java/org/apache/commons/pool2/impl/TestAbandonedObjectPool.java": "MultiMethods",
+        "src/test/java/org/apache/commons/pool2/TestObjectPool.java": "Other"
+    },
+    "6610e5759629df0b965e9597bb13372b6ad79eaa": {
+        "src/test/java/org/apache/commons/pool2/impl/TestGenericObjectPool.java": "MultiMethods",
+        "src/main/java/org/apache/commons/pool2/ObjectPool.java": "Class",
+        "src/main/java/org/apache/commons/pool2/PoolUtils.java": "MultiMethods",
+        "src/test/java/org/apache/commons/pool2/TestObjectPool.java": "MultiMethods"
+    },
+    "479bd9574de9a7c87e9bb0719e547852c8deb112": {
+        "src/test/java/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.java": "Other",
+        "src/test/java/org/apache/commons/pool2/MethodCallPoolableObjectFactory.java": "Other",
+        "src/test/java/org/apache/commons/pool2/TestKeyedObjectPool.java": "Other"
+    },
+    "6092f924b36061353ff92b18c88400ab3bc05327": {},
+    "f3984f8f9fcf6ba92d9fce6001d3bcd813345e35": {"src/main/java/org/apache/commons/pool2/ObjectPool.java": "Other"},
+    "0c02918380b2dbe7905c1956f9cadad23dd411f4": {"src/main/java/org/apache/commons/pool2/PoolUtils.java": "Other"},
+    "221e85f1afa6abdb0285d86bf917ed287072aba4": {"src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java": "Other"},
+    "e451b40e08a2cc0c5d6f090e1a3108742603c747": {},
+    "51b9354cacd70a57f478fcc447175b368677a777": {},
+    "cfb886a6048071fb214fe00861438035f08f288b": {
+        "src/main/java/org/apache/commons/pool2/impl/BaseGenericObjectPool.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/CallStackUtils.java": "Other"
+    },
+    "0b970e40af46eefa2e3c14492868d1a88b147ac8": {},
+    "9b6e7b8da024d08f285000c5135e6b7fd39b7027": {},
+    "5a040c98e4baa9422aaa87fc51ee4e9dc207f2ff": {},
+    "347dc49b1db62b6d51e982cf9fce8132fcf87ae5": {},
+    "597def3f5e20bed50aacd0f60b021284295e1195": {},
+    "41f4e410b3e7dc34b294ac9941721073bf5e5271": {
+        "src/test/java/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.java": "Class",
+        "src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java": "MultiMethods"
+    },
+    "7d0b45940238918033094684343551f90524e600": {
+        "src/test/java/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.java": "Class",
+        "src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java": "MultiMethods"
+    },
+    "9754dd5dcea80d06c6b670364e6b82b5de2e4c45": {"src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java": "Other"},
+    "104a55cd3b7e118465e8b6bbd57033817fa0fc75": {},
+    "2bd2bf6fb47da044fe3e6ae2788560ca94e21d8a": {
+        "src/test/java/org/apache/commons/pool2/TestPoolUtils.java": "Other",
+        "src/main/java/org/apache/commons/pool2/KeyedObjectPool.java": "Other"
+    },
+    "11521c1fdbfbb079cc1859034a425191112f5358": {"src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java": "Other"},
+    "3ca09a7a6963962f61808abded2c8b80f3cff4a9": {},
+    "33d3fe008182242bc97d32d26023f666f04f2e6a": {},
+    "81ddcd73f6b236906d7c2a54558777a39c0c5881": {},
+    "f9443a4cbe2395481802d88252d7f9e18b28dd99": {
+        "src/test/java/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.java": "Other",
+        "src/main/java/org/apache/commons/pool2/BaseObjectPool.java": "Other",
+        "src/main/java/org/apache/commons/pool2/ObjectPool.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/GenericKeyedObjectPool.java": "Other",
+        "src/main/java/org/apache/commons/pool2/PooledObjectFactory.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/GenericObjectPool.java": "Other",
+        "src/test/java/org/apache/commons/pool2/TestObjectPool.java": "Other",
+        "src/main/java/org/apache/commons/pool2/KeyedPooledObjectFactory.java": "Other",
+        "src/main/java/org/apache/commons/pool2/PooledObject.java": "Other",
+        "src/main/java/org/apache/commons/pool2/BaseKeyedPooledObjectFactory.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/BaseObjectPoolConfig.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/AbandonedConfig.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/SoftReferenceObjectPool.java": "Other",
+        "src/test/java/org/apache/commons/pool2/Waiter.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/BaseGenericObjectPool.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/DefaultPooledObjectInfoMBean.java": "Other",
+        "src/main/java/org/apache/commons/pool2/BasePooledObjectFactory.java": "Other",
+        "src/main/java/org/apache/commons/pool2/KeyedObjectPool.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/EvictionPolicy.java": "Other",
+        "src/test/java/org/apache/commons/pool2/TestKeyedObjectPool.java": "Other"
+    },
+    "af38a4e32582cee6471110309a8f47ee441f9280": {
+        "src/main/java/org/apache/commons/pool2/ObjectPool.java": "Other",
+        "src/test/java/org/apache/commons/pool2/TestPoolUtils.java": "MultiMethods",
+        "src/main/java/org/apache/commons/pool2/PoolUtils.java": "MultiMethods",
+        "src/main/java/org/apache/commons/pool2/KeyedObjectPool.java": "Class"
+    },
+    "8c4ed3ec40641a36aac49c5c04f1abe336fd820e": {},
+    "40e4649b7f95aa2cb3f22daa3fd2e7ddcdc59ef1": {
+        "src/test/java/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.java": "Class",
+        "src/test/java/org/apache/commons/pool2/impl/TestGenericObjectPool.java": "Class",
+        "src/test/java/org/apache/commons/pool2/TestPoolUtils.java": "Class",
+        "src/main/java/org/apache/commons/pool2/impl/EvictionTimer.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/SecurityManagerCallStack.java": "Class",
+        "src/test/java/org/apache/commons/pool2/impl/TestDefaultPooledObject.java": "Class"
+    },
+    "ca96e5efff1dfd81eeac82ed330f9762fe2bb76d": {
+        "src/test/java/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.java": "MultiMethods",
+        "src/main/java/org/apache/commons/pool2/ObjectPool.java": "MultiMethods",
+        "src/test/java/org/apache/commons/pool2/TestPoolUtils.java": "MultiMethods",
+        "src/main/java/org/apache/commons/pool2/PoolUtils.java": "MultiMethods",
+        "src/main/java/org/apache/commons/pool2/KeyedObjectPool.java": "Class",
+        "src/test/java/org/apache/commons/pool2/TestKeyedObjectPool.java": "MultiMethods"
+    },
+    "65980097be1861a495512b49ffff826a1073bde7": {
+        "src/main/java/org/apache/commons/pool2/PooledObjectState.java": "Other",
+        "src/main/java/org/apache/commons/pool2/impl/CallStackUtils.java": "Other",
+        "src/main/java/org/apache/commons/pool2/PooledObject.java": "Other"
+    },
+    "acc0f0af5425efe04af1046653b926ccf0fe4848": {},
+    "a612d50b0c8414c25c7bb2d4745d16aad0770937": {}
+}

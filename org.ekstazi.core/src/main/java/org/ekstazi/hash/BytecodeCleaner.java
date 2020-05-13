@@ -16,23 +16,13 @@
 
 package org.ekstazi.hash;
 
-import java.io.ByteArrayOutputStream;
-import java.io.DataOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.Arrays;
-
-import org.ekstazi.asm.AnnotationVisitor;
-import org.ekstazi.asm.ClassReader;
-import org.ekstazi.asm.ClassVisitor;
-import org.ekstazi.asm.FieldVisitor;
-import org.ekstazi.asm.Handle;
-import org.ekstazi.asm.Label;
-import org.ekstazi.asm.MethodVisitor;
-import org.ekstazi.asm.Opcodes;
-import org.ekstazi.asm.Type;
+import org.ekstazi.asm.*;
+import org.ekstazi.asm.util.*;
 import org.ekstazi.util.FileUtil;
+
+import java.io.*;
+import java.util.Arrays;
+import java.util.TreeMap;
 
 /**
  * Removes debug info from a class file. Visits a class file and keeps only the
@@ -100,6 +90,16 @@ public final class BytecodeCleaner {
             this.mCleanField = new CleanField(dos, mCleanAnnotation);
             this.filter = new Filter();
         }
+
+//        public CleanClass(DataOutputStream dos, DataOutputStream annotationDos, DataOutputStream fieldDos) {
+//            super(ASM_API_VERSION);
+//            this.mBytes = dos;
+//            this.mCleanAnnotation = new CleanAnnotation(annotationDos);
+//            this.mCleanMethod = new CleanMethod(dos, mCleanAnnotation);
+//            this.mCleanField = new CleanField(fieldDos, mCleanAnnotation);
+//            this.filter = new Filter();
+//        }
+
 
         public boolean isFiltered() {
             return isFiltered;
@@ -211,6 +211,7 @@ public final class BytecodeCleaner {
             } catch (IOException ex) {
                 // never
             }
+
             return mCleanMethod;
         }
 
@@ -694,6 +695,62 @@ public final class BytecodeCleaner {
         return array;
     }
 
+
+//    public static class MulArray{
+//        public byte[] baosArray;
+//        public byte[] annotationBaosArray;
+//        public byte[] fieldBaosArray;
+//
+//        MulArray(byte[] baosArray, byte[] annotationBaosArray, byte[] fieldBaosArray){
+//            this.baosArray = baosArray;
+//            this.annotationBaosArray = annotationBaosArray;
+//            this.fieldBaosArray = fieldBaosArray;
+//        }
+//    }
+
+//    public static MulArray removeDebugInfoUpdate(byte[] bytes) {
+//        if (bytes.length >= 4) {
+//            // Check magic number.
+//            int magic = ((bytes[0] & 0xff) << 24) | ((bytes[1] & 0xff) << 16)
+//                    | ((bytes[2] & 0xff) << 8) | (bytes[3] & 0xff);
+//            if (magic != 0xCAFEBABE)
+//                return null;
+//        } else {
+//            return null;
+//        }
+//
+//        // We set the initial size as it cannot exceed that value (but note that
+//        // this may not be the final size).
+//        ByteArrayOutputStream baos = new ByteArrayOutputStream(bytes.length);
+//        DataOutputStream dos = new DataOutputStream(baos);
+//
+//        ByteArrayOutputStream annotationBaos = new ByteArrayOutputStream();
+//        DataOutputStream annotationDos = new DataOutputStream(baos);
+//
+//        ByteArrayOutputStream fieldBaos = new ByteArrayOutputStream();
+//        DataOutputStream fieldDos = new DataOutputStream(baos);
+//        try {
+//            ClassReader classReader = new ClassReader(bytes);
+//            CleanClass cleanClass = new CleanClass(dos, annotationDos, fieldDos);
+//            classReader.accept(cleanClass, ClassReader.SKIP_DEBUG);
+//            if (cleanClass.isFiltered()) {
+//                return new MulArray(FILTERED_BYTECODE, null, null);
+//            }
+//        } catch (Exception ex) {
+//            return new MulArray(bytes, null, null);
+//        }
+//
+//        byte[] array = baos.toByteArray();
+//        // sort the array so that the "sort methods" will not affect it
+//        Arrays.sort(array);
+//
+//        byte[] annotationArray = annotationBaos.toByteArray();
+//        Arrays.sort(annotationArray);
+//        byte[] fieldArray = fieldBaos.toByteArray();
+//        Arrays.sort(fieldArray);
+//        return new MulArray(array, annotationArray, fieldArray);
+//    }
+
     public static void main(String... args) throws IOException {
         String inputFileName = args[0];
         String outputFileName = args[1];
@@ -706,4 +763,6 @@ public final class BytecodeCleaner {
         dos.write(newBytes, 0, newBytes.length);
         dos.close();
     }
+
+
 }

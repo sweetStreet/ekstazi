@@ -13,4 +13,12 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ekstazi-maven-plugin" options="-XDignore.symbol.file" />
+      <module name="ekstazi-maven-plugin.test" options="-XDignore.symbol.file" />
+      <module name="org.ekstazi.core" options="-XDignore.symbol.file" />
+      <module name="org.ekstazi.core.test" options="-XDignore.symbol.file" />
+    </option>
+  </component>
 </project>

@@ -1,0 +1,147 @@
+{
+    "26b78cecfc1ca0e5daf03109b2c441f960bde678": {},
+    "992ecf3c0a70ab1646d3689b9ac60844a5d603cf": {
+        "src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java": "MultiMethods",
+        "src/test/java/org/apache/commons/compress/utils/ZipSplitReadOnlySeekableByteChannelTest.java": "Class",
+        "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": "Class",
+        "src/main/java/org/apache/commons/compress/compressors/FileNameUtil.java": "Class",
+        "src/test/java/org/apache/commons/compress/archivers/zip/ZipFileTest.java": "Class",
+        "src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java": "Class",
+        "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java": "Class",
+        "src/main/java/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannel.java": "Class",
+        "src/main/java/org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel.java": "Class",
+        "src/test/java/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest.java": "MultiMethods"
+    },
+    "352829af6b0486716a683921c2642f30c023bff9": {},
+    "b2f97b2460747c82329e1247c59e74d2cfee1cbd": {"src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": "MultiMethods"},
+    "6ef97b8ea7e323696be1d3e2022e1de6b0229e09": {},
+    "e959762ed200d9bc03fd858b8c96e35f95cada90": {
+        "src/main/java/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannel.java": "Class",
+        "src/test/java/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest.java": "Class"
+    },
+    "34590ca9ccda7b63e5f57906f1b9b12bf6efd56c": {},
+    "228e73995ea16cb247e5549fed727edfc3a28dce": {"src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java": "MultiMethods"},
+    "7897da76152e44029b90698ff195c49e035f8c73": {
+        "src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java": "Class",
+        "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java": "Class"
+    },
+    "d3a0a309d902e3639654731e07ccfb51fed9688a": {
+        "src/main/java/org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/utils/ChecksumCalculatingInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/compressors/lzw/LZWInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/compressors/snappy/SnappyCompressorInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/compressors/gzip/GzipCompressorInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/compressors/deflate64/Deflate64CompressorInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/utils/CountingInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/compressors/xz/XZCompressorInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/archivers/dump/TapeInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/archivers/sevenz/BoundedSeekableByteChannelInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/compressors/deflate64/HuffmanDecoder.java": "Other",
+        "src/main/java/org/apache/commons/compress/compressors/zstandard/ZstdCompressorInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java": "MultiMethods"
+    },
+    "8bdb913000d7cceb0b7ac966fd3d1583280182c3": {"src/main/java/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannel.java": "MultiMethods"},
+    "34c3311d406c648a7b6ada342bf4c294fd81a6ee": {"src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java": "MultiMethods"},
+    "16a0c84e84b93cc8c107b7ff3080bd11317ab581": {"src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFileOptions.java": "MultiMethods"},
+    "7e7bfb5b37850d5142ae8c9d07fc78c5da04af67": {},
+    "ab7809b5c3de7a370a70f8236ec3f5c10c6383e2": {},
+    "80a388e309cf21f8e55cc996c0ba487f6c0d7f8a": {},
+    "6615be084bf20b0044fbd8cb8ac869340e1336d9": {
+        "src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java": "Class",
+        "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java": "Other"
+    },
+    "fff4d81f2746f0faf39f595ebbf9ab242c51247a": {},
+    "d88aa2236a7cb4f46f0cf9bacf419c8cbebc0e2a": {"src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java": "MultiMethods"},
+    "dfa9ed3712097c10765301b15d720f867c4a061d": {
+        "src/test/java/org/apache/commons/compress/utils/FileNameUtilsTest.java": "Class",
+        "src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java": "MultiMethods",
+        "src/test/java/org/apache/commons/compress/utils/ZipSplitReadOnlySeekableByteChannelTest.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/compressors/FileNameUtil.java": "Class",
+        "src/main/java/org/apache/commons/compress/utils/FileNameUtils.java": "Class",
+        "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java": "Other",
+        "src/main/java/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannel.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel.java": "MultiMethods"
+    },
+    "88b3780f0b04748ec69fa96a504b0b04f30006c1": {"src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFileOptions.java": "Other"},
+    "931b42b4b9e29eedf0adce3909655cb47522ce9b": {},
+    "d3ed06a07b880fca2ef2610ba1f3d33f7f566caa": {"src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": "MultiMethods"},
+    "277d6a0c2820548fd97748ec6aff92ceceb1fd35": {
+        "src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java": "Class",
+        "src/main/java/org/apache/commons/compress/archivers/sevenz/Archive.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java": "MultiMethods"
+    },
+    "c7a9079da030b1cb194190ba56b2e730504f650d": {
+        "src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java": "Class",
+        "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java": "Class"
+    },
+    "26ad28cdaeb46f5cd0344687116952db97857929": {"src/test/java/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest.java": "Class"},
+    "9d2a2f4a520db29fb1f1bf064979fed0efb7f075": {"src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java": "Class"},
+    "28049d2f89a76c5a4845c12151a483ca7773fb6f": {},
+    "a9aabdd9ef5e822710734aafde1a90e4b619ce78": {},
+    "ad9b4244607aaca0eb77c54219515c28c52839e7": {"src/test/java/org/apache/commons/compress/archivers/ZipTestCase.java": "MultiMethods"},
+    "c937e01ae3ad2f258b5a2c94f2a03e8c8e740e7d": {
+        "src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java": "Class",
+        "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFileOptions.java": "Class",
+        "src/main/java/org/apache/commons/compress/archivers/Lister.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java": "Class"
+    },
+    "0cc994417eef7206becfd511d8b070f22eb48e7a": {},
+    "302bc4f19f2ff5c108884969b4347465c52673c8": {},
+    "2492bbe8f95f25b86b863ec61487fcfdd26fe3a1": {},
+    "82986dd12fc255d218a6454364a50eb9ae3f812d": {
+        "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": "MultiMethods",
+        "src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java": "Class"
+    },
+    "f5d0bb1e287038de05415ca65145d82166a7bf0f": {
+        "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": "MultiMethods",
+        "src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java": "Class"
+    },
+    "30a27cfad69f67ef4779a780b54f697bcf48105e": {},
+    "2488a44faec06a91ae52652407fb0a881ed217d2": {
+        "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java": "MultiMethods"
+    },
+    "a98d68e2b5c7b018db5153eb37ba38297027c852": {},
+    "1cc808076dbe3047cdc4ed30655241d0e0e87c86": {
+        "src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java": "Class",
+        "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java": "Class"
+    },
+    "7d4e6b213ff87ca61982a7c55a7869ba99fabcd0": {
+        "src/main/java/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannel.java": "Other",
+        "src/test/java/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest.java": "Other"
+    },
+    "fbaba0eab63bae94c865e6ba91295b79c8e8cbc1": {"src/main/java/org/apache/commons/compress/archivers/sevenz/BoundedSeekableByteChannelInputStream.java": "Other"},
+    "5eb6b35d4e31a4468d34164ad7f971807188cb3e": {"src/main/java/org/apache/commons/compress/compressors/gzip/GzipCompressorInputStream.java": "Other"},
+    "f1255d9dec0cbb06301998bb1af46a8f23958074": {
+        "src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java": "MultiMethods",
+        "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java": "MultiMethods"
+    },
+    "205876d6f9eb60ac31f3ec848b23d025f32995ab": {"src/main/java/org/apache/commons/compress/archivers/sevenz/CLI.java": "MultiMethods"},
+    "5a190918e21e34c4690c5010ca86040dacd0d481": {
+        "src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java": "Class",
+        "src/test/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest.java": "Class"
+    },
+    "21ee2655b2a01c251855382d8d3f69f2fe813349": {"src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java": "Class"},
+    "0cc082068c25419ea41133978dfb405bb058e48c": {"src/main/java/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannel.java": "Other"},
+    "4ad5d80a6272e007f64a6ac66829ca189a8093b9": {
+        "src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java": "MultiMethods",
+        "src/test/java/org/apache/commons/compress/archivers/zip/NioZipEncodingTest.java": "Class"
+    },
+    "9eeea3f3c0b4abbdb357200d0f3ba8e4863545e7": {
+        "src/main/java/org/apache/commons/compress/compressors/deflate64/HuffmanDecoder.java": "MultiMethods",
+        "src/test/java/org/apache/commons/compress/compressors/deflate64/HuffmanDecoderTest.java": "MultiMethods"
+    }
+}
